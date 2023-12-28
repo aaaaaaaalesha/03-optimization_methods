@@ -1,0 +1,13 @@
+{
+  "task_name": "Покупка автомобиля",
+  "alternative_names": ["A. Suzuki", "B. Mitsubishi", "C. Honda", "D. Toyota"],
+  "criteria_names": ["Стоимость", "Расходы на обслуживание", "Расход бензина", "Комфорт"],
+  "criterias_weight": [4, 6, 8, 2],
+  "criterias_direction": ["min", "min" ,"min" , "max"],
+  "alternative_matrix": [
+    [8, 5, 9, 2],
+    [6, 9, 3, 7],
+    [5, 2, 7, 3],
+    [2, 5, 2, 8]
+  ]
+}
